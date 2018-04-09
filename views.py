@@ -66,7 +66,7 @@ import mimetypes
 
 
 def download(request):
-  path="/home/somit/elucidata"
+  path="/home/somit/"
   filename= path+"/"+"PC_Compound"+".csv" # Select your file here.
   download_name ="file1.csv"
   wrapper=FileWrapper(open(filename))
